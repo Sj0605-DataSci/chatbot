@@ -14,7 +14,7 @@ from io import BytesIO
 #
 # # Use the API key to authenticate with OpenAI
 # openai.api_key = openai_api_key
-openai.api_key = "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"
+openai.api_key = "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"
 
 def generate_text(prompt):
     completions = openai.Completion.create(
